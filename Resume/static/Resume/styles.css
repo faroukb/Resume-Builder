@@ -1,0 +1,217 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+    color: #202070;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.block_menu {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main_menu {
+    color: rgb(0, 0, 0);
+}
+ 
+.menu {
+      display: inline; 
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 30px;
+      padding-right: 30px;
+      color: rgb(3, 3, 3);
+      font-family: 'Gotu', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+}
+  
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+ 
+.menu a:hover{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+
+
+.user_menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.user_menu a:hover{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+
+
+.content {
+    width: 80%;
+    float:left;
+    position: relative;
+
+}
+
+
+.content_inner {
+    margin:20px;
+    position: relative;
+    font-size: 18px;
+}
+
+
+
+
+
+.footer_inner {
+    height: 20px;
+    width: 100%;
+    background-color: #555577;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 5px;
+}
+
+.intro {
+    font-size: 24px;
+    color: #202070;
+    font-weight: 600;
+    padding-top: 80px;
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #0026ff;
+}
+
+h2 {
+    font-size: 18px;
+    color: #202070;
+}
+
+p {
+    color: #000000;
+}
+
+label {
+    color: #202070;
+    margin: 20px;
+}
+
+input {
+    color: #202070;
+    margin: 10px;
+}
+
+textarea {
+    color: #202070;
+    margin: 10px;
+}
+
+
+.first_col {
+    
+    text-align: right;
+}
+
+.second_col {
+    
+    text-align: left;
+}
+
+
+.resume_page h1{
+    font-size: 25px;
+    color: #202070;
+    margin: 20px;
+}
+
+.resume_page h2{
+    font-size: 20px;
+    margin: 20px;
+}
+
+
+
+.contacts{
+    width: 400px;
+    
+    float: left;
+    position: relative;
+}
+
+.contacts_inner {
+    margin: 20px;
+    font-size: 18px;
+}
+
+.contacts_inner p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.title{
+    width: 400px;
+    margin-left: 50%;
+
+}
+
+.divider {
+    width: 100%;    
+    color: #000000;
+    position: relative;
+    clear: both;
+}
+
+
+.infoblock_inner{
+    margin: 10px;
+}
+
+.infoblock_inner h2{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.infoblock_inner p{
+    margin-left: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.empty{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border: solid 1px black;
+    
+}
+
+.hidden{
+    display: none;
+}

@@ -1,0 +1,27 @@
+{% extends 'Resume/layout.html' %}
+
+
+{% block content %}
+<section class="main_section">
+	<div class="content">
+		<div class="content_inner">
+			{% if user.is_authenticated %}			
+
+			<h2>Your resumes:</h2>
+			{% if resumes_list %}
+				{% for a in resumes_list %}
+					<p><a href="{% url 'resume_details' a.id %}">{{ a.job_title }}</a></p>
+					<a href="{% url 'download' a.id %}" class="btn btn-primary">Download</a>
+				{% endfor %}
+			{% else %}
+			<p>You don't have any resumes yet.</p>
+			{% endif %}
+			{% 	else %}
+			<p>If you want view or add new resume you should <a href="{% url 'login' %}">login</a> or <a href="{% url 'signup' %}">sign up.</a></p> 
+			{% endif %}	
+	</div></div>
+	
+	
+</section> 
+
+{% endblock %}

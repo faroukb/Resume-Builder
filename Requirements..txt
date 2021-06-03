@@ -1,0 +1,15 @@
+Requirements to use the application:
+
+1.Install python-pdfkit:
+
+$ pip install pdfkit
+
+Install wkhtmltopdf:
+
+Debian/Ubuntu:
+
+$ sudo apt-get install wkhtmltopdf
+
+for windows users:
+
+you can download it following this link : https://wkhtmltopdf.org/
